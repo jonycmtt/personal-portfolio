@@ -11,8 +11,8 @@ function App() {
 
   return (
     <>
-      {/* <div className="bg-[url('./assets/site-bg.jpg')]  bg-no-repeat bg-cover overflow-hidden"> */}
-      <div className="">
+      <div className="bg-[url('./assets/site-bg.jpg')]  bg-no-repeat bg-cover overflow-hidden">
+      {/* <div className=""> */}
         <Header></Header>
         <Banner></Banner>
         <Nav></Nav>
@@ -20,7 +20,7 @@ function App() {
         <Services></Services>
         <Work></Work>
         <Contact></Contact>
-        {/* <div className="h-[4000px]"></div> */}
+        <div className="h-[4000px]"></div>
       </div>
     </>
   )

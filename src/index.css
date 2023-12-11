@@ -1,4 +1,4 @@
-.btn {
+.btn-ex {
   background: linear-gradient(
     92.23deg,
     #ff56f6 21.43%,
@@ -9,7 +9,7 @@
   box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
 }
 
-.btn:hover {
+.btn-ex:hover {
   background: linear-gradient(
     92.23deg,
     #406aff 21.43%,
@@ -46,16 +46,16 @@
   .h3 {
     @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
   }
-  .btn {
+  .btn-ex {
     @apply rounded-full font-primary text-white font-medium;
   }
-  .btn-sm {
+  .btn-ex-sm {
     @apply h-[48px] px-6 text-sm;
   }
-  .btn-lg {
+  .btn-ex-lg {
     @apply h-[56px] px-10 text-base;
   }
-  .btn-link {
+  .btn-ex-link {
     @apply text-base;
   }
   .text-gradient {
