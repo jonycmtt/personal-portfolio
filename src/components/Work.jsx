@@ -12,8 +12,7 @@ const Work = () => {
       <div className="container mx-auto">
         <div className="text-center">
           <h2 className="h2 leading-tight text-accent  mb-20">
-            My Latest 
-            Projects
+            My Latest Projects
           </h2>
           {/* <p className="max-w-md mb-16 mx-auto">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -32,10 +31,24 @@ const Work = () => {
             <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
               <span className="text-gradient">React</span>
             </div>
-            <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+            <div className="absolute -bottom-full left-12 group-hover:bottom-16 transition-all duration-700 z-50">
               <span className="text-3xl text-white">
-              Anon  eCommerce website
+                Anon eCommerce website
               </span>
+              <div className="mt-8 flex gap-2">
+                <a
+                  className="btn-ex btn-sm "
+                  href="https://anon-ecommerce-design.netlify.app/"
+                >
+                  Live Preview
+                </a>
+                <a
+                  className="btn-ex btn-sm "
+                  href="https://github.com/jonycmtt/anon-ecommerce-website?tab=readme-ov-file"
+                >
+                  Code
+                </a>
+              </div>
             </div>
           </div>
           <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
@@ -52,6 +65,20 @@ const Work = () => {
               <span className="text-3xl text-white">
                 FIMRO Survey Polling Website
               </span>
+              <div className="mt-8 flex gap-2">
+                <a
+                  className="btn-ex btn-sm "
+                  href="https://fimro-survey-project.web.app/"
+                >
+                  Live Preview
+                </a>
+                <a
+                  className="btn-ex btn-sm "
+                  href="https://github.com/jonycmtt/Survey-app"
+                >
+                  Code
+                </a>
+              </div>
             </div>
           </div>
           <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
@@ -69,6 +96,20 @@ const Work = () => {
                 {" "}
                 Github ProFinder websit
               </span>
+              <div className="mt-8 flex gap-2">
+                <a
+                  className="btn-ex btn-sm "
+                  href="https://profind-github.netlify.app/"
+                >
+                  Live Preview
+                </a>
+                <a
+                  className="btn-ex btn-sm "
+                  href="https://github.com/jonycmtt/ProFinder"
+                >
+                  Code
+                </a>
+              </div>
             </div>
           </div>{" "}
           <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
@@ -85,6 +126,20 @@ const Work = () => {
               <span className="text-3xl text-white">
                 Single page Ecommerce Website Design
               </span>
+              <div className="mt-8 flex gap-2">
+                <a
+                  className="btn-ex btn-sm "
+                  href="https://frun-ecommerce.netlify.app/"
+                >
+                  Live Preview
+                </a>
+                <a
+                  className="btn-ex btn-sm "
+                  href="https://github.com/jonycmtt/Frun-Ecommerce-Design"
+                >
+                  Code
+                </a>
+              </div>
             </div>
           </div>
         </div>

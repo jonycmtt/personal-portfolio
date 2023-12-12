@@ -5,10 +5,12 @@ const Header = () => {
         <header className='py-8'>
             <div className="container mx-auto">
                 <div className="flex justify-between items-center">
-                    <a href="#">
+                    <a href="javascript:void">
                         <h2 className="text-2xl font-bold">JonyCmT</h2>
                     </a>
-                    <button className="btn-ex btn-sm">Download CV</button>
+                   <a href="../assets/SalmanRahamanResume.pdf" download>
+                   <button  className="btn-ex btn-sm">Download CV</button>
+                   </a>
                 </div>
             </div>
         </header>
