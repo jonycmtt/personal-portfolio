@@ -1,73 +1,90 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../Variants";
 
-import img1 from "../assets/portfolio-img1.png";
-import img2 from "../assets/portfolio-img2.png";
-import img3 from "../assets/portfolio-img3.png";
+import img1 from "../assets/survey.png";
+import img2 from "../assets/profinder.png";
+import img3 from "../assets/ecommerce.png";
+import img4 from "../assets/anon.png";
 
 const Work = () => {
   return (
     <div className="section" id="work">
       <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row gap-x-10 ">
-          <div className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0">
-            <div>
-              <h2 className="h2 leading-tight text-accent">
-                My Latest <br />
-                Work
-              </h2>
-              <p className="max-w-sm mb-16">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem repellat maiores provident repellendus nesciunt
-                at.
-              </p>
-              <button className="btn-ex btn-sm">View all projects</button>
+        <div className="text-center">
+          <h2 className="h2 leading-tight text-accent  mb-20">
+            My Latest 
+            Projects
+          </h2>
+          {/* <p className="max-w-md mb-16 mx-auto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem repellat maiores provident repellendus nesciunt at.
+          </p> */}
+          {/* <button className="btn-ex btn-sm">View all projects</button> */}
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+            <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+            <img
+              className="group-hover:scale-125 transition-all duration-500"
+              src={img4}
+              alt=""
+            />
+            <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+              <span className="text-gradient">React</span>
             </div>
-
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-              <img
-                className="group-hover:scale-125 transition-all duration-500"
-                src={img1}
-                alt=""
-              />
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
-              </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
-              </div>
+            <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+              <span className="text-3xl text-white">
+              Anon  eCommerce website
+              </span>
             </div>
           </div>
-
-          <div className="flex-1 flex flex-col gap-y-6">
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-              <img
-                className="group-hover:scale-125 transition-all duration-500"
-                src={img1}
-                alt=""
-              />
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
-              </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
-              </div>
-            </div>{" "}
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-              <img
-                className="group-hover:scale-125 transition-all duration-500"
-                src={img1}
-                alt=""
-              />
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
-              </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
-              </div>
+          <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+            <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+            <img
+              className="group-hover:scale-125 transition-all duration-500"
+              src={img1}
+              alt=""
+            />
+            <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+              <span className="text-gradient">MERN Stack</span>
+            </div>
+            <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+              <span className="text-3xl text-white">
+                FIMRO Survey Polling Website
+              </span>
+            </div>
+          </div>
+          <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+            <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+            <img
+              className="group-hover:scale-125 transition-all duration-500"
+              src={img2}
+              alt=""
+            />
+            <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+              <span className="text-gradient">Javascript</span>
+            </div>
+            <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+              <span className="text-3xl text-white">
+                {" "}
+                Github ProFinder websit
+              </span>
+            </div>
+          </div>{" "}
+          <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+            <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+            <img
+              className="group-hover:scale-125 transition-all duration-500"
+              src={img3}
+              alt=""
+            />
+            <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+              <span className="text-gradient">Web Design</span>
+            </div>
+            <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+              <span className="text-3xl text-white">
+                Single page Ecommerce Website Design
+              </span>
             </div>
           </div>
         </div>

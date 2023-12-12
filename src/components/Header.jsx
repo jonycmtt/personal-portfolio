@@ -8,7 +8,7 @@ const Header = () => {
                     <a href="#">
                         <h2 className="text-2xl font-bold">JonyCmT</h2>
                     </a>
-                    <button className="btn-ex btn-sm">Work with me</button>
+                    <button className="btn-ex btn-sm">Download CV</button>
                 </div>
             </div>
         </header>

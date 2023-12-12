@@ -2,6 +2,7 @@ import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { fadeIn } from "../Variants";
+import { Link } from "react-scroll";
 
 const About = () => {
   const { ref, inView } = useInView({
@@ -25,18 +26,16 @@ const About = () => {
             whileInView={'show'}
             viewport={{once : false, amount : 0.3}} className="flex-1 ">
             <h2 className="h2 text-accent">About Me.</h2>
-            <h3 className="h3">
-              I'm a Freelance front-end Developer with over 5 years of
+            <h3 className="h3 font-poppin">
+              I'm a Freelance front-end Developer with over 2 years of
               experience
             </h3>
             <p className="mb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-              consequuntur quia commodi adipisci accusamus maiores, iusto
-              similique et ducimus laborum!
+            Hey there, I'm Salman Rahaman, a seasoned front-end developer with a passion for transforming ideas into visually captivating and functionally robust digital experiences. 
             </p>
 
             {/* states */}
-            <div className="flex gap-x-6 lg:gap-x-10 mb-12">
+            <div className="flex gap-x-6 lg:gap-x-10 mb-12 ">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
                   {inView ? (
@@ -74,7 +73,7 @@ const About = () => {
               </div>
             </div>
             <div className="flex gap-x-8 items-center">
-              <button className="btn-ex btn-lg">Contact Me</button>
+              <Link to="contact"><button className="btn-ex btn-lg">Contact Me</button></Link>
               <a href="#" className="text-gradient btn-ex-link">
                 My Portfolio
               </a>

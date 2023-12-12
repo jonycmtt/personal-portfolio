@@ -5,6 +5,7 @@ module.exports = {
       primary: 'Orbitron',
       secondary: 'Rajdhani',
       tertiary: 'Aldrich',
+      poppin: 'Poppins',
     },
     container: {
       padding: {
@@ -24,7 +25,7 @@ module.exports = {
       },
       backgroundImage: {
         'site': "url('./src/assets/site-bg.jpg)",
-        'about': "url('./src/assets/about.png')",
+        'about': "url('./src/assets/aboutme.png')",
         'services': "url('./src/assets/services.png')",
       },
     },

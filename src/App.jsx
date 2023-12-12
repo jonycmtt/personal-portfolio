@@ -4,6 +4,7 @@ import Contact from "./components/Contact"
 import Header from "./components/Header"
 import Nav from "./components/Nav"
 import Services from "./components/Services"
+import Skill from "./components/Skill"
 import Work from "./components/Work"
 
 
@@ -18,6 +19,7 @@ function App() {
         <Nav></Nav>
         <About></About>
         <Services></Services>
+        {/* <Skill></Skill> */}
         <Work></Work>
         <Contact></Contact>
         {/* <div className="h-[4000px]"></div> */}

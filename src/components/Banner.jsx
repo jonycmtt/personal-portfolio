@@ -1,8 +1,9 @@
 import Image from "../assets/avatar.svg";
-import { FaGithub, FaYoutube, FaDribbble } from "react-icons/fa";
+import { FaGithub, FaYoutube, FaFacebook } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../Variants";
+import { Link } from "react-scroll";
 
 const Banner = () => {
   return (
@@ -29,7 +30,7 @@ const Banner = () => {
               <span className="mr-4 text-white">I am a </span>
               <TypeAnimation
                 sequence={[
-                  "Developer",
+                  "React Developer",
                   2000,
                   "Designer",
                   2000,
@@ -49,9 +50,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Perferendis ex in sapiente aperiam veniam esse expedita corrupti
-              nemo? Nemo, accusamus!
+              I'm a FrontEnd web developer, Mentor, and Content Creator. And I am looking for a full stack web development ropes exploring
             </motion.p>
 
             <motion.div
@@ -61,23 +60,23 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max  gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn-ex btn-lg"> Contact Me</button>
-              <a className="text-gradient btn-ex-link" href="#">
-                My Portfolio
-              </a>
+             <Link to="contact"> <button className="btn-ex btn-lg"> Contact Me</button></Link>
+              {/* <a className="text-gradient btn-ex-link" href="#">
+                Download CV
+              </a> */}
             </motion.div>
             <motion.div  variants={fadeIn("up", 0.7)}
               initial='hidden'
               whileInView={'show'}
               viewport={{once : false,amount : 0.7}} className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
-              <a href="#">
+              <a href="https://www.youtube.com/jonycmt">
                 <FaYoutube></FaYoutube>
               </a>
-              <a href="#">
+              <a href="https://github.com/jonycmtt">
                 <FaGithub></FaGithub>
               </a>
-              <a href="#">
-                <FaDribbble></FaDribbble>
+              <a href="https://facebook.com/jonycmt">
+                <FaFacebook></FaFacebook>
               </a>
             </motion.div>
           </div>
