@@ -102,7 +102,7 @@ const About = () => {
             </button>
           </form>
           <div className="w-full">
-            <ul className="timeline timeline-vertical">
+            <ul className="md:timeline md:timeline-vertical overflow-auto">
               <li>
                 <div className="timeline-start timeline-box">
                   <span className="text-accent flex items-center gap-2">
