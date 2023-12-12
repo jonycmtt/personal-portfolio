@@ -16,9 +16,9 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="text-[55px] font-bold leading-[0.8] lg:text-[110px]"
+              className="text-[35px] font-bold leading-[0.8] lg:text-[60px]"
             >
-              Jony <span>CmT</span>
+              Salman Rahaman
             </motion.h1>
             <motion.div
               variants={fadeIn("up", 0.4)}

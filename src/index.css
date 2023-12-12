@@ -69,3 +69,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.modal-box {
+  max-width: 60rem;
+}

@@ -25,8 +25,8 @@ module.exports = {
       },
       backgroundImage: {
         'site': "url('./src/assets/site-bg.jpg)",
-        'about': "url('./src/assets/aboutme.png')",
-        'services': "url('./src/assets/services.png')",
+        'about': "url('https://raw.githubusercontent.com/jonycmtt/personal-portfolio/main/src/assets/aboutme.png')",
+        'services': "url('https://raw.githubusercontent.com/jonycmtt/personal-portfolio/main/src/assets/services.png')",
       },
     },
   },
